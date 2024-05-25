@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+}
+
+a{
+    color: #85b3ca;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #4888a8;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+}
+
+header{
+    background-image: url('menu-background.png');
+    height: 900px;
+}
+
+.menu-container{
+    display: flex;
+    background-color: white;
+    height: 10%;
+
+}
+
+.menu-container div{
+    display: flex;
+    height: 100%;
+    text-align: center;
+    border-left: 1px solid gray;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-logo{
+    height: auto;
+    width: 460px;
+    align-items: left;
+}
+
+.menu-nav{
+    height: auto;
+    width: 1000px;
+}
+
+.menu-nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-nav ul li{
+    color: #85b3ca;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 60px;
+}
+
+.menu-myacc{
+    color: #85b3ca;
+    font-weight: bold;
+    font-size: 20px;
+    height: auto;
+    width: 460px;
+    flex-direction: column;
+}
+
+.undermenu-container{
+    display: flex;
+}
+
+.undermenu-container div{
+    width: 50%;
+    padding: 350px 200px 0px 200px;
+}
+
+.first-section{
+    text-align: right;
+}
+
+.second-section{
+    text-align: left;
+    margin-top: 110px;
+}
+
+p{
+    color: #85b3ca;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8)
+}
+
+.facebook-icon{
+    border-radius: 100%;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.7);
+    margin-left: 55px;
+}
+
+.facebook-icon:hover{
+    box-shadow: 2px 3px 5px rgba(255, 255, 255, 0.5);
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+button{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0px;
+    background-color: #85b3ca;
+    margin: 10px 0px;
+    padding: 15px 35px;
+}
+
+button:hover{
+    background-color: #4888a8;
+    cursor: pointer;
+}
