@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <div class="menu-container">
+        <div class="menu-wrapper">
             <div class="menu-logo">
                 <a href="index.html"> <img src="logo.png" alt="logo"> </a>
             </div>
@@ -16,8 +16,8 @@
             <div class="menu-nav">
                 <ul>
                     <li> <a href="index.html"> Main Page </a> </li>
-                    <li> <a href=""> FAQ </a> </li>
-                    <li> <a href=""> Products </a> </li>
+                    <li> <a href="#main-wrapper"> About Us </a> </li>
+                    <li> <a href="#products-wrapper"> Products </a> </li>
                     <li> <a href=""> Contact </a> </li>
                 </ul>
             </div>
@@ -26,13 +26,18 @@
                 <img src="myacc.png" alt="MyAcc">
                 <a href=""> My Account </a>
             </div>
+
+            <div class="menu-cart">
+                <img src="cart-icon.png" alt="cart-icon">
+                <a href=""> Cart </a>
+            </div>
         </div>
 
-        <div class="undermenu-container">
+        <div class="undermenu-wrapper">
             <div class="first-section">
                 <p> Explore the world </p>
                 <h1> Many beautiful <br> places </h1>
-                <a href="" target="_blank"> <button> See more </button> </a>
+                <a href="#main-wrapper"> <button> See more </button> </a>
             </div>
             
             <div class="second-section">
@@ -41,5 +46,57 @@
             </div>
         </div>
     </header>
+
+        <div id="main-wrapper" class="main-wrapper">
+            <div>
+                <img src="safe-icon.png" alt="safe-icon">
+                <h2>Trusted equipment shop </h2>
+                <h3> Customer rating 4.7 </h3>
+            </div>
+            
+            <div>
+                <img src="card-icon.png" alt="card-icon">
+                <h2> Secure payment </h2>
+                <h3> Support for multiple payment methods </h3>
+            </div>
+
+            <div>
+                <img src="support-icon.png" alt="support-icon">
+                <h2> Support </h2>
+                <h3> We are always ready to help you </h3>
+            </div>
+        </div>
+
+        <div id="products-wrapper" class="products-wrapper">
+
+            <div>
+                <img src="winter-jacket.png" alt="winter jacket">
+                Winter jacket <br>
+                399,99 zł
+                <button>Add to cart</button>
+            </div>
+
+            <div>
+                <img src="safety-harness.png" alt="safety harness">
+                Safety Harness <br>
+                249,99 zł
+                <button>Add to cart</button>
+            </div>
+
+            <div>
+                <img src="climbing-shoes.png" alt="climbing shoes">
+                Climbing shoes <br>
+                199,00 zł
+                <button>Add to cart</button>
+            </div>
+
+            <div>
+                <img src="chalk.png" alt="chalk">
+                Chalk <br>
+                49,99 zł
+                <button>Add to cart</button>
+            </div>
+
+        </div>
 </body>
 </html>

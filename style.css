@@ -1,15 +1,6 @@
 *{
     margin: 0px;
-}
-
-a{
-    color: #85b3ca;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #4888a8;
-    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+    scroll-behavior: smooth;
 }
 
 header{
@@ -17,14 +8,14 @@ header{
     height: 900px;
 }
 
-.menu-container{
+.menu-wrapper{
     display: flex;
     background-color: white;
     height: 10%;
 
 }
 
-.menu-container div{
+.menu-wrapper div{
     display: flex;
     height: 100%;
     text-align: center;
@@ -50,26 +41,35 @@ header{
 }
 
 .menu-nav ul li{
-    color: #85b3ca;
+    color: #4888a8;
     font-weight: bold;
     font-size: 20px;
     padding: 0px 60px;
 }
 
 .menu-myacc{
-    color: #85b3ca;
+    color: #4888a8;
     font-weight: bold;
     font-size: 20px;
     height: auto;
-    width: 460px;
+    width: 230px;
     flex-direction: column;
 }
 
-.undermenu-container{
+.menu-cart{
+    color: #4888a8;
+    font-weight: bold;
+    font-size: 20px;
+    height: auto;
+    width: 230px;
+    flex-direction: column;
+}
+
+.undermenu-wrapper{
     display: flex;
 }
 
-.undermenu-container div{
+.undermenu-wrapper div{
     width: 50%;
     padding: 350px 200px 0px 200px;
 }
@@ -84,7 +84,7 @@ header{
 }
 
 p{
-    color: #85b3ca;
+    color: #4888a8;
     font-weight: bold;
     font-size: 25px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8)
@@ -106,17 +106,73 @@ h1{
     font-size: 45px;
 }
 
+a{
+    color: #4888a8;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #85b3ca;
+}
+
+.undermenu-wrapper a:hover{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+}
+
 button{
     color: white;
     font-weight: bold;
     font-size: 18px;
     border: 0px;
-    background-color: #85b3ca;
+    background-color: #4888a8;
     margin: 10px 0px;
     padding: 15px 35px;
 }
 
 button:hover{
-    background-color: #4888a8;
+    background-color: #85b3ca;
     cursor: pointer;
+}
+
+.main-wrapper{
+    display: flex;
+    padding: 0% 20%;
+}
+
+.main-wrapper div{
+    height: auto;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding: 2% 5%;
+}
+
+h2{
+    color: #4888a8;
+    padding: 5% 0%;
+}
+
+h3{
+    color: gray;
+}
+
+.products-wrapper{
+    display: flex;
+    height: auto;
+    padding: 2% 5%;
+}
+
+.products-wrapper div{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 1% 0%;
 }
