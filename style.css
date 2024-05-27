@@ -134,12 +134,12 @@ button:hover{
     cursor: pointer;
 }
 
-.main-wrapper{
+.prospects-wrapper{
     display: flex;
     padding: 0% 20%;
 }
 
-.main-wrapper div{
+.prospects-wrapper div{
     height: auto;
     width: 33%;
     display: flex;
@@ -159,6 +159,58 @@ h3{
     color: gray;
 }
 
+.about-us-wrapper{
+    display: flex;
+    width: auto;
+    padding: 8% 20%;
+}
+
+.about-us-wrapper div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+.about-us-wrapper p{
+    color:#4888a8;
+    font-size: 20px;
+    text-shadow: none;
+}
+
+.about-us-wrapper button{
+    padding: 13px 25px;
+    margin: 20px 0px;
+}
+
+h4{
+    color: black;
+    font-size: 35px;
+}
+
+
+.about-us-second-part{
+    background-image: url(hiking-image.png) ;
+    max-width: 400px;
+    max-height: 310px;
+    margin-left: 140px;
+}
+
+.motto-text{
+    position: absolute;
+    max-width: 300px;
+    background-color: white;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    right: 340px;
+    bottom: -780px;
+}
+
+.motto-text div{
+    margin-top: 10px;
+    padding: 0px;
+}
+
 .products-wrapper{
     display: flex;
     height: auto;
@@ -175,4 +227,19 @@ h3{
     margin-left: 75px;
     margin-right: 75px;
     padding: 1% 0%;
+}
+
+.contact-wrapper{
+    display: flex;
+    padding: 5% 40%;
+    text-align: left;
+}
+
+.contact-wrapper input{
+    margin-bottom: 30px;
+    width: 400px;
+}
+
+#details{
+    height: 300px;
 }
