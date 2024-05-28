@@ -202,8 +202,8 @@ h4{
     background-color: white;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
     padding: 10px;
-    right: 340px;
-    bottom: -780px;
+    right: 20%;
+    bottom: -76%;
 }
 
 .motto-text div{
@@ -242,4 +242,75 @@ h4{
 
 #details{
     height: 300px;
+}
+
+footer{
+    background-color: #2d2d2e;
+    display: flex;
+}
+
+table{
+    text-align: left;
+    width: 100%;
+    margin: 0px;
+    border-collapse: collapse;
+}
+
+tr, td{
+    border: 1px solid gray;
+    margin: 0px;
+
+}
+
+.footer-socials{
+    width: 60%;
+    padding:100px 300px ;
+}
+
+.footer-socials img{
+    padding-right: 22px;
+}
+
+hr{
+    color: #4888a8;
+    background-color: #4888a8;
+    width: 203px;
+    margin-bottom: 20px;
+}
+
+.footer-information p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.footer-information {
+    color: white;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.footer-information a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-account{
+    color: white;
+    padding: 20px 300px;
+    font-size: 20px;
+}
+
+.footer-account p{
+    font-size: 15px;
+}
+
+.footer-account button{
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.footer-copyright{
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
 }
