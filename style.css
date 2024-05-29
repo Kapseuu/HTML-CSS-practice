@@ -233,11 +233,13 @@ h4{
     display: flex;
     padding: 5% 40%;
     text-align: left;
+    color: #4888a8;
 }
 
 .contact-wrapper input{
     margin-bottom: 30px;
     width: 400px;
+    border: 1px solid black;
 }
 
 #details{
