@@ -4,7 +4,7 @@
 }
 
 header{
-    background-image: url('menu-background.png');
+    background-image: url('graphics/menu-background.png');
     height: 900px;
 }
 
@@ -190,7 +190,7 @@ h4{
 
 
 .about-us-second-part{
-    background-image: url(hiking-image.png) ;
+    background-image: url('graphics/hiking-image.png') ;
     max-width: 400px;
     max-height: 310px;
     margin-left: 140px;
